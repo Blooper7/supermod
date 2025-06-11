@@ -7,7 +7,7 @@ def mod(a,b):
     else:
       multiplier+=1
 
-print(f"{mod(11,3)} : {11%3}")
+print(f"Proof of correctness in mod definition: {mod(11,3)=} : {11%3=}")
 
 def supermod(a,b):
   exponent=0
